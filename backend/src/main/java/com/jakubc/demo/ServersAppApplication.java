@@ -18,7 +18,7 @@ public class ServersAppApplication {
     @Bean
     CommandLineRunner run(ServerRepo serverRepo) {
         return args -> {
-            serverRepo.save(new Server(null, "192.168.1.160"
+            serverRepo.save(new Server(null, "2.57.136.172"
                     , "Ubuntu Linux", "16 GB", "Personal PC"
                     , "http://localhost:8080/server/image/server1.png"
                     , Status.SERVER_UP));
@@ -26,7 +26,7 @@ public class ServersAppApplication {
                     , "Fedora Linux", "16 GB", "Dell Tower"
                     , "http://localhost:8080/server/image/server2.png"
                     , Status.SERVER_DOWN));
-            serverRepo.save(new Server(null, "192.168.1.21"
+            serverRepo.save(new Server(null, "64.233.185.138"
                     , "MS 2008", "32 GB", "Web Server"
                     , "http://localhost:8080/server/image/server3.png"
                     , Status.SERVER_UP));
