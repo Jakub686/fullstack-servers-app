@@ -1,6 +1,6 @@
 import { Server } from "./server";
 
-export interface CustomRespone {
+export interface CustomResponse {
     timeStamp: Date;
     statusCode: number;
     status: string;
